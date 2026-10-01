@@ -1,17 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Support - Evolift</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Evolift</title>
+  <meta
+    name="description"
+    content="Obtenir de l’aide concernant l’application Evolift."
+  >
+
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f6f6f2;
+      --surface: #ffffff;
+      --text: #171717;
+      --muted: #666662;
+      --border: #e3e3dc;
+      --accent: #6b861f;
+      --accent-soft: #eef4d8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin: 38px 0 12px;
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .date {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .intro {
+      margin: 28px 0;
+      padding: 22px;
+      border-left: 4px solid var(--accent);
+      background: var(--accent-soft);
+      border-radius: 8px;
+      font-size: 1.08rem;
+    }
+
+    .card {
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 13px 18px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 8px 0 18px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin: 7px 0;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        width: min(100% - 24px, 760px);
+        padding-top: 32px;
+      }
+
+      .card {
+        padding: 18px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Support Evolift</h1>
+  <main>
+    <header>
+      <p class="eyebrow">Evolift</p>
+      <h1>Support Evolift</h1>
+      <p class="date">
+        Une question ou un problème avec l’application ?
+      </p>
+    </header>
 
-  <p>Une question ou un problème avec Evolift ?</p>
+    <div class="intro">
+      Nous sommes là pour vous aider. Contactez-nous par e-mail en décrivant
+      votre problème, et nous vous répondrons dès que possible.
+    </div>
 
-  <p>
-    Contacte-nous à :
-    <a href="mailto:ced.bernard31@gmail.com">ced.bernard31@gmail.com</a>
-  </p>
+    <section>
+      <h2>Nous contacter</h2>
+
+      <div class="card">
+        <p>
+          Pour toute question concernant Evolift, envoyez-nous un e-mail à :
+        </p>
+
+        <p>
+          <a
+            class="button"
+            href="mailto:ced.bernard31@gmail.com?subject=Support%20Evolift"
+          >
+            ced.bernard31@gmail.com
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Pour faciliter le traitement de votre demande</h2>
+
+      <p>
+        Si possible, indiquez dans votre message :
+      </p>
+
+      <ul>
+        <li>le modèle de votre iPhone ;</li>
+        <li>la version d’iOS utilisée ;</li>
+        <li>la version d’Evolift ;</li>
+        <li>les étapes qui provoquent le problème ;</li>
+        <li>le message d’erreur affiché, le cas échéant.</li>
+      </ul>
+
+      <p>
+        Évitez d’envoyer des informations personnelles ou des données
+        d’entraînement qui ne sont pas nécessaires à la résolution du problème.
+      </p>
+    </section>
+
+    <section>
+      <h2>Problèmes fréquents</h2>
+
+      <div class="card">
+        <p>
+          <strong>Sauvegarde iCloud :</strong>
+          vérifiez que vous êtes connecté au même compte Apple et qu’iCloud
+          Drive est activé sur votre iPhone.
+        </p>
+
+        <p>
+          <strong>Notifications du minuteur :</strong>
+          vérifiez que les notifications sont autorisées pour Evolift dans
+          Réglages&nbsp;› Notifications.
+        </p>
+
+        <p>
+          <strong>Live Activities :</strong>
+          vérifiez que les Activités en direct sont autorisées pour Evolift
+          dans les réglages de l’iPhone.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Evolift. Tous droits réservés.
+    </footer>
+  </main>
 </body>
 </html>
