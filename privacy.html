@@ -1,1 +1,530 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité — Evolift</title>
+  <meta
+    name="description"
+    content="Politique de confidentialité de l'application Evolift."
+  >
 
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f6f6f2;
+      --surface: #ffffff;
+      --text: #171717;
+      --muted: #666662;
+      --border: #e3e3dc;
+      --accent: #6b861f;
+      --accent-soft: #eef4d8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin: 38px 0 12px;
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 8px 0 18px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .date {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .summary {
+      margin: 28px 0;
+      padding: 20px 22px;
+      border-left: 4px solid var(--accent);
+      background: var(--accent-soft);
+      border-radius: 8px;
+    }
+
+    .card {
+      padding: 22px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .card p:last-child,
+    section p:last-child,
+    section ul:last-child {
+      margin-bottom: 0;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 16px 0 20px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 620px;
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+    }
+
+    th,
+    td {
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f0f0eb;
+      font-weight: 700;
+    }
+
+    address {
+      font-style: normal;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        width: min(100% - 24px, 900px);
+        padding-top: 32px;
+      }
+
+      .card {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Evolift</p>
+      <h1>Politique de confidentialité</h1>
+      <p class="date">
+        Dernière mise à jour :
+        <time datetime="2026-10-01">1er octobre 2026</time>
+      </p>
+    </header>
+
+    <div class="summary">
+      <strong>En bref :</strong>
+      Evolift est une application iPhone conçue pour fonctionner hors connexion.
+      L’application ne nécessite pas de compte et n’envoie pas vos données
+      d’entraînement vers un serveur exploité par Evolift. Les données sont
+      conservées localement sur votre iPhone. Si iCloud est disponible, Evolift
+      peut également créer une sauvegarde dans votre espace iCloud.
+    </div>
+
+    <section>
+      <h2>1. Responsable du traitement</h2>
+
+      <div class="card">
+        <address>
+          <strong>Application :</strong> Evolift<br>
+          <strong>Éditeur :</strong> Cédric Bernard<br>
+          <strong>Contact confidentialité :</strong>
+          <a href="mailto:dev@gomuscu.app">
+            dev@gomuscu.app
+          </a>
+        </address>
+      </div>
+
+      <p>
+        Pour toute question concernant cette politique ou l’utilisation de vos
+        données, vous pouvez nous contacter à l’adresse indiquée ci-dessus.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Données enregistrées par Evolift</h2>
+
+      <p>
+        Evolift enregistre uniquement les informations nécessaires au
+        fonctionnement de l’application et aux fonctionnalités choisies par
+        l’utilisateur.
+      </p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Catégorie</th>
+              <th>Exemples</th>
+              <th>Lieu de stockage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Profil d’entraînement</td>
+              <td>
+                Objectif, niveau d’expérience, exercices sélectionnés, charges
+                et répétitions de référence.
+              </td>
+              <td>Localement sur l’iPhone</td>
+            </tr>
+            <tr>
+              <td>Programmes et séances</td>
+              <td>
+                Programmes, modèles de séances, exercices personnalisés,
+                séries, charges, répétitions, dates et temps de repos.
+              </td>
+              <td>Localement sur l’iPhone</td>
+            </tr>
+            <tr>
+              <td>Progression et ressentis</td>
+              <td>
+                Difficulté ressentie, fatigue, échec, progression, informations
+                relatives à une douleur ou à un inconfort et actions choisies.
+              </td>
+              <td>Localement sur l’iPhone</td>
+            </tr>
+            <tr>
+              <td>Préférences</td>
+              <td>
+                Unités, apparence, sons, vibrations et préférences du minuteur.
+              </td>
+              <td>Localement sur l’iPhone</td>
+            </tr>
+            <tr>
+              <td>Données techniques locales</td>
+              <td>
+                Identifiants internes, dates, état d’une séance et identifiant
+                aléatoire d’installation utilisé dans les sauvegardes.
+              </td>
+              <td>Localement et, si activé, dans la sauvegarde iCloud</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Evolift ne demande pas votre nom, votre adresse e-mail, votre numéro de
+        téléphone, votre adresse physique ou votre date de naissance pour
+        fonctionner. Vous pouvez toutefois donner vous-même un nom à un
+        programme ou à un exercice personnalisé.
+      </p>
+
+      <p>
+        Evolift n’accède pas à HealthKit, à l’application Santé, à votre
+        localisation, à vos contacts, à vos photos, à votre appareil photo ou
+        à votre microphone. Certaines informations relatives à la douleur ou à
+        l’inconfort peuvent être considérées comme des informations liées à la
+        santé ; elles sont saisies volontairement par l’utilisateur et servent
+        uniquement aux fonctionnalités d’entraînement de l’application.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Utilisation des données</h2>
+
+      <p>Les données enregistrées servent uniquement à :</p>
+
+      <ul>
+        <li>créer et gérer vos programmes et vos séances ;</li>
+        <li>conserver votre historique d’entraînement ;</li>
+        <li>calculer les recommandations de progression ;</li>
+        <li>gérer les séances interrompues, les temps de repos et les retours d’entraînement ;</li>
+        <li>afficher les minuteurs, notifications locales et Live Activities ;</li>
+        <li>créer ou restaurer une sauvegarde iCloud ;</li>
+        <li>vérifier l’intégrité des fichiers de sauvegarde.</li>
+      </ul>
+
+      <p>
+        Evolift n’utilise pas ces données pour afficher des publicités ciblées,
+        établir un profil publicitaire ou vendre des informations personnelles.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Stockage local et fonctionnement hors connexion</h2>
+
+      <p>
+        La base de données principale d’Evolift est stockée localement sur votre
+        iPhone. L’application peut fonctionner sans connexion Internet et
+        aucune donnée d’entraînement n’est envoyée à un serveur exploité par
+        Evolift.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Sauvegardes iCloud</h2>
+
+      <p>
+        Lorsque votre appareil et votre compte Apple permettent l’utilisation
+        d’iCloud, Evolift peut créer automatiquement une sauvegarde de vos
+        données. Vous pouvez également lancer une sauvegarde manuelle depuis la
+        section « Données locales » de l’application.
+      </p>
+
+      <p>
+        La sauvegarde peut contenir les données décrites dans la présente
+        politique, notamment vos programmes, séances, performances, ressentis
+        et informations relatives à la douleur ou à l’inconfort.
+      </p>
+
+      <p>
+        Ces données sont exportées dans un fichier de sauvegarde puis
+        enregistrées dans le conteneur iCloud Documents d’Evolift, associé à
+        votre compte Apple. Evolift ne possède pas de serveur indépendant
+        permettant d’accéder à ces fichiers.
+      </p>
+
+      <p>
+        Le traitement des données par Apple et iCloud relève également des
+        conditions et de la politique de confidentialité d’Apple :
+        <a
+          href="https://www.apple.com/legal/privacy/fr-ww/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Engagement de confidentialité d’Apple
+        </a>.
+      </p>
+
+      <p>
+        Les fichiers de sauvegarde contiennent une empreinte d’intégrité afin
+        de détecter une corruption éventuelle. Cette empreinte ne constitue pas
+        un chiffrement du contenu. Nous vous recommandons donc de protéger votre
+        iPhone et votre compte Apple par un code et une authentification
+        appropriés.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Notifications locales et Live Activities</h2>
+
+      <p>
+        Si vous l’autorisez, Evolift programme des notifications locales pour
+        signaler la fin d’un temps de repos. Ces notifications sont générées
+        et programmées sur votre appareil ; elles ne sont pas envoyées par un
+        serveur Evolift.
+      </p>
+
+      <p>
+        Sur les appareils compatibles, les Live Activities peuvent afficher sur
+        l’écran verrouillé ou dans la Dynamic Island le nom de la séance, le
+        nom de l’exercice, la progression et le compte à rebours du repos.
+        Vous pouvez désactiver les notifications et les Live Activities dans
+        les réglages iOS.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Analyse, publicité et suivi</h2>
+
+      <p>
+        La version actuelle d’Evolift n’intègre aucun service externe
+        d’analyse, de publicité, de suivi publicitaire, de profilage ou de
+        courtage de données.
+      </p>
+
+      <p>
+        Evolift n’utilise pas l’identifiant publicitaire d’Apple et ne suit pas
+        votre activité dans d’autres applications ou sites web. Aucun événement
+        d’utilisation n’est transmis à Evolift à des fins statistiques.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Partage avec des tiers</h2>
+
+      <p>
+        Evolift ne vend, ne loue et ne partage pas vos données avec des
+        partenaires commerciaux, des régies publicitaires ou des courtiers de
+        données.
+      </p>
+
+      <p>
+        Le seul service tiers pouvant recevoir une copie de vos données est
+        iCloud, lorsque la sauvegarde iCloud est disponible et utilisée. Cette
+        copie est stockée par Apple dans votre espace iCloud et reste soumise
+        aux conditions et à la politique de confidentialité d’Apple.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Conservation et suppression</h2>
+
+      <p>
+        Les données locales sont conservées tant que l’application et ses
+        données restent présentes sur votre iPhone. Evolift ne supprime pas
+        automatiquement votre historique de séances terminées, vos séries ou
+        vos ressentis.
+      </p>
+
+      <p>
+        Pour supprimer les données locales, vous pouvez supprimer l’application
+        Evolift de votre iPhone. Pour supprimer complètement les sauvegardes,
+        vous devez également supprimer les fichiers de sauvegarde Evolift
+        présents dans iCloud Drive, via l’application Fichiers ou les réglages
+        iCloud appropriés.
+      </p>
+
+      <p>
+        Les sauvegardes automatiques peuvent remplacer la dernière sauvegarde
+        automatique. Les sauvegardes manuelles versionnées peuvent rester dans
+        iCloud jusqu’à leur suppression par l’utilisateur.
+      </p>
+
+      <p>
+        Evolift ne conserve pas de copie indépendante de vos données
+        d’entraînement sur ses propres serveurs. Si vous nous contactez par
+        e-mail, les informations transmises seront conservées uniquement le
+        temps nécessaire au traitement de votre demande ou pour respecter une
+        obligation légale.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Vos droits</h2>
+
+      <p>
+        Selon votre lieu de résidence et la législation applicable, vous pouvez
+        demander l’accès à vos données, leur rectification, leur suppression,
+        la limitation de leur traitement, vous opposer à certains traitements
+        ou demander leur portabilité.
+      </p>
+
+      <p>
+        Pour exercer un droit ou poser une question, contactez-nous à
+        <a href="mailto:dev@gomuscu.app">
+          dev@gomuscu.app
+        </a>.
+        Nous pouvons demander des informations raisonnables pour vérifier
+        l’identité du demandeur.
+      </p>
+
+      <p>
+        Pour les données stockées directement dans iCloud, vous pouvez
+        également exercer vos droits auprès d’Apple via sa page
+        <a
+          href="https://privacy.apple.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Données et confidentialité
+        </a>.
+      </p>
+
+      <p>
+        Si vous résidez dans l’Union européenne, vous pouvez également
+        introduire une réclamation auprès de l’autorité de protection des
+        données compétente, notamment la CNIL en France.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Sécurité</h2>
+
+      <p>
+        Evolift applique des mesures raisonnables pour limiter les accès
+        non autorisés à ses données locales et vérifier l’intégrité des
+        sauvegardes. Toutefois, aucune méthode de stockage ou de transmission
+        ne peut garantir une sécurité absolue.
+      </p>
+
+      <p>
+        La sécurité des données locales dépend notamment de la protection de
+        votre iPhone. La sécurité des sauvegardes iCloud dépend également de la
+        sécurité de votre compte Apple et des protections proposées par Apple.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Enfants</h2>
+
+      <p>
+        Evolift n’est pas destinée aux enfants de moins de 13 ans. Nous ne
+        cherchons pas à collecter volontairement des données concernant des
+        enfants. Si vous pensez qu’un enfant nous a transmis des informations,
+        contactez-nous afin que nous puissions vous orienter.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Modifications de cette politique</h2>
+
+      <p>
+        Cette politique peut être mise à jour lorsque les fonctionnalités
+        d’Evolift ou les obligations applicables évoluent. La date de dernière
+        mise à jour sera modifiée en haut de cette page. En cas de changement
+        important, une information pourra également être affichée dans
+        l’application.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Evolift. Tous droits réservés.
+    </footer>
+  </main>
+</body>
+</html>
